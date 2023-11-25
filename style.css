@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111111f6;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+
+/********************* ANIMATED BACKGROUND *********************/
+
+
+.blocAnimation {
+    z-index: -999;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.animationBackgroundSchema {
+    background-color: #dd33333f;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    box-shadow: #dd33333f 0px 0px 5px 10px;
+    animation: aura 3s linear infinite;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animationBackground2 {
+    left: 15%;
+    animation: aura 4.5s linear infinite;
+
+}
+
+.animationBackground3 {
+    left: 25%;
+    animation: aura 6s linear infinite;
+}
+
+.animationBackground4 {
+    left: 35%;
+    animation: aura 3s linear infinite;
+}
+
+.animationBackground5 {
+    left: 45%;
+    animation: aura 3.5s linear infinite;
+}
+
+.animationBackground6 {
+    left: 55%;
+    animation: aura 5s linear infinite;
+}
+
+.animationBackground7 {
+    left: 65%;
+    animation: aura 3.8s linear infinite;
+}
+
+.animationBackground8 {
+    left: 75%;
+    animation: aura 2.5s linear infinite;
+}
+
+.animationBackground9 {
+    left: 85%;
+    animation: aura 3.5s linear infinite;
+}
+
+.animationBackground10 {
+    left: 95%;
+    animation: aura 6.4s linear infinite;
+}
+
+.animationBackground11 {
+    left: 10%;
+    animation: aura2 4.4s linear infinite;
+}
+
+.animationBackground12 {
+    left: 30%;
+    animation: aura2 5.4s linear infinite;
+}
+
+.animationBackground13 {
+    left: 50%;
+    animation: aura2 3.4s linear infinite;
+}
+
+.animationBackground14 {
+    left: 70%;
+    animation: aura2 4.4s linear infinite;
+}
+
+.animationBackground15 {
+    left: 90%;
+    animation: aura2 2.4s linear infinite;
+}
+
+
+@keyframes aura {
+    0% {
+        opacity: 10%;
+    }
+
+    5% {
+        opacity: 100%;
+    }
+
+
+    12.5% {
+        opacity: 50%;
+    }
+
+    37.5% {
+        opacity: 100%;
+    }
+
+    62.5% {
+        opacity: 50%;
+
+    }
+
+    87.5% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+        bottom: 100%;
+    }
+}
+
+@keyframes aura2 {
+    0% {
+        opacity: 10%;
+    }
+
+    5% {
+        opacity: 100%;
+    }
+
+
+    12.5% {
+        opacity: 50%;
+    }
+
+    37.5% {
+        opacity: 100%;
+    }
+
+    62.5% {
+        opacity: 50%;
+
+    }
+
+    87.5% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+        bottom: 55%;
+    }
+}
+
+.theHeart {
+color: rgb(176, 11, 11);    
+}
+
+.textForMylove {
+    color: rgb(159, 4, 4);
+    font-size: 90px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+}
