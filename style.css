@@ -14,7 +14,7 @@ body {
 
 
 .blocAnimation {
-    z-index: -999;
+    z-index: -9999;
     position: fixed;
     left: 0px;
     right: 0px;
